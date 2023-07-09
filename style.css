@@ -106,7 +106,7 @@ a{
     transition: 0.3s;
 }
 .link:hover {
-    transform: translate(2px, -2px);
+    transform: translate(0, -2px);
     box-shadow: -8px 8px 12px 12px rgba(0, 0, 0, 0.05);
 }
 .link:active {
