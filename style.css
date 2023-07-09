@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-size: 1.6rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    /* background-image: linear-gradient(45deg, rgb(199, 255, 171), rgb(122, 180, 123)); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+a{
+    text-decoration: none;
+    color: #000;
+    font-weight: 600;
+}
+/*  */
+.container{
+    box-shadow: 0 0 12px #0000002d;
+    padding: 3rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.2rem;
+    background-image: url(./img/bg.jpg);
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    transform: scale(0.98);
+    transition: all 0.8s;
+}
+.container:hover{
+    transform: scale(1);
+    background-position: center;
+}
+.profile{
+    text-align: center;
+    background: #00000066;
+    width: 100%;
+    border-radius: 1rem;
+    padding: 2rem 0;
+}
+.profilepic{
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    /* border: 1px dashed #999; */
+}
+.profiletxt{
+    text-align: center;
+}
+.name{
+    margin-top: 1rem;
+    font-size: 2rem;
+    color: #fff;
+    text-shadow: 6px 6px 6px #0000002d;
+}
+.info{
+    margin-top: 1rem;
+    color: #ddd;
+    text-shadow: 6px 6px 6px #0000002d;
+}
+.socials{
+    display: flex;
+    gap: 1.6rem;
+}
+.icon{
+    width: 5rem;
+    cursor: pointer;
+    filter: invert(0.5);
+    transition: 0.3s;
+}
+.icon:hover{
+    transform: scale(1.05);
+    filter: invert(1);
+}
+.iconfill{
+    border: 1.5px solid #000;
+    border-radius: 50px;
+    padding: 8px;
+}
+.links{
+    margin: 2rem auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.6rem;
+    width: 100%;
+}
+.link {
+    padding: 12px 24px;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    color: #fff;
+    background: #000;
+    width: 100%;
+    text-align: center;
+    transition: 0.3s;
+}
+.link:hover {
+    transform: translate(2px, -2px);
+    box-shadow: -8px 8px 12px 12px rgba(0, 0, 0, 0.05);
+}
+.link:active {
+    transform: translate(0, 0);
+    box-shadow: none;
+}
