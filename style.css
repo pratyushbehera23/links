@@ -11,19 +11,18 @@ body{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     /* background-image: linear-gradient(45deg, rgb(199, 255, 171), rgb(122, 180, 123)); */
     display: flex;
-    align-items: center;
     justify-content: center;
-    min-height: 90vh;
 }
 a{
     text-decoration: none;
     color: #000;
     font-weight: 600;
 }
-/*  */
+
 .container{
-    box-shadow: 0 0 12px #0000002d;
+    box-shadow: 0 8px 16px #00000050;
     padding: 3rem;
+    margin: 3rem;
     border-radius: 1rem;
     display: flex;
     flex-direction: column;
@@ -39,7 +38,9 @@ a{
 .container:hover{
     transform: scale(1);
     background-position: center;
+    box-shadow: 0 12px 24px #00000060;
 }
+
 .profile{
     text-align: center;
     background: #00000066;
@@ -67,6 +68,7 @@ a{
     color: #ddd;
     text-shadow: 6px 6px 6px #0000002d;
 }
+
 .socials{
     display: flex;
     gap: 1.6rem;
@@ -86,6 +88,7 @@ a{
     border-radius: 50px;
     padding: 8px;
 }
+
 .links{
     margin: 2rem auto;
     display: flex;
